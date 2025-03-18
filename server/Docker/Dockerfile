@@ -77,7 +77,7 @@ RUN apt install -y curl
 ############################################################
 
 RUN mkdir /blynk
-RUN curl -L https://github.com/blynkkk/blynk-server/releases/download/v${BLYNK_SERVER_VERSION}/server-${BLYNK_SERVER_VERSION}.jar > /blynk/server.jar
+RUN curl -L https://github.com/DmitriiMukhin/blynk-server/releases/download/v${BLYNK_SERVER_VERSION}/server-${BLYNK_SERVER_VERSION}.jar > /blynk/server.jar
 
 RUN mkdir /data
 RUN mkdir /config && touch /config/server.properties

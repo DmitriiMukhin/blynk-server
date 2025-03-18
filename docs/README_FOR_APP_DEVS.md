@@ -41,7 +41,7 @@ This is 1 byte field responsible for storing command code from client, like logi
     UPDATE_WIDGET = 34;
     DELETE_WIDGET = 35;
 
-[Full list](https://github.com/blynkkk/blynk-server/blob/master/server/core/src/main/java/cc/blynk/server/core/protocol/enums/Command.java#L11) 
+[Full list](https://github.com/DmitriiMukhin/blynk-server/blob/master/server/core/src/main/java/cc/blynk/server/core/protocol/enums/Command.java#L11) 
 
 ### Message Id field
 Unsigned short.
@@ -83,7 +83,7 @@ Client sends commands to the server and gets response for every command sent.
 For commands (register, login, saveProfile, hardware) that doesn't request any data back - 'response' (command field 0x00) message is returned.
 For commands (loadProfile, getToken) that request data back - message will be returned with same command code. In case you sent 'loadProfile' you will receive 'loadProfile' command back with filled body.
 
-[Here is the class with all of the codes](https://github.com/blynkkk/blynk-server/blob/master/server/core/src/main/java/cc/blynk/server/core/protocol/enums/Response.java#L12).
+[Here is the class with all of the codes](https://github.com/DmitriiMukhin/blynk-server/blob/master/server/core/src/main/java/cc/blynk/server/core/protocol/enums/Response.java#L12).
 Response message structure:
 
 | Command       | Message Id    | Response code   |
@@ -140,7 +140,7 @@ Response message structure:
     MENU
 
 
-[List is here](https://github.com/blynkkk/blynk-server/blob/master/server/core/src/main/java/cc/blynk/server/core/model/enums/WidgetType.java#L8).
+[List is here](https://github.com/DmitriiMukhin/blynk-server/blob/master/server/core/src/main/java/cc/blynk/server/core/model/enums/WidgetType.java#L8).
 
 ## JSON structure
 
@@ -204,4 +204,4 @@ Could be found [here](https://github.com/blynkkk/blynk-library/blob/master/docs/
 ## Command workflow
 
 For better understanding of how commands should be processed, please have a look in integration test 
-it is easy understand what is going on there. You may start from [this](https://github.com/blynkkk/blynk-server/blob/master/integration-tests/src/test/java/cc/blynk/integration/tcp/MainWorkflowTest.java#L78) test.
+it is easy understand what is going on there. You may start from [this](https://github.com/DmitriiMukhin/blynk-server/blob/master/integration-tests/src/test/java/cc/blynk/integration/tcp/MainWorkflowTest.java#L78) test.
