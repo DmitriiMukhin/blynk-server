@@ -166,7 +166,7 @@
 
         <!-- test dependencies -->
         <httpclient.version>4.5.14</httpclient.version>
-        <commons-lang3.version>3.7</commons-lang3.version>
+        <commons-lang3.version>3.17.0</commons-lang3.version>
         <junit.version>4.13.2</junit.version>
         <mockito-core.version>2.18.3</mockito-core.version>
         <commons-io.version>2.5</commons-io.version>
