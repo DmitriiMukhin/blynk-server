@@ -169,7 +169,7 @@
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <junit.version>4.13.2</junit.version>
         <mockito-core.version>5.16.1</mockito-core.version>
-        <commons-io.version>2.5</commons-io.version>
+        <commons-io.version>2.18.0</commons-io.version>
         <jmh-core.version>1.19</jmh-core.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
