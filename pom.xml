@@ -155,7 +155,7 @@
         <log4j2.version>2.24.3</log4j2.version>
         <jackson-databind.version>2.18.3</jackson-databind.version>
         <disruptor.version>4.0.0</disruptor.version>
-        <async-http-client.version>2.12.4</async-http-client.version>
+        <async-http-client.version>3.0.1</async-http-client.version>
         <postgresql.version>42.7.5</postgresql.version>
         <HikariCP.version>3.4.1</HikariCP.version>
         <qrgen.version>3.0.1</qrgen.version>
