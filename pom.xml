@@ -157,7 +157,7 @@
         <disruptor.version>4.0.0</disruptor.version>
         <async-http-client.version>2.12.4</async-http-client.version>
         <postgresql.version>42.7.5</postgresql.version>
-        <HikariCP.version>3.4.1</HikariCP.version>
+        <HikariCP.version>6.3.0</HikariCP.version>
         <qrgen.version>3.0.1</qrgen.version>
         <bcpg-jdk15on.version>1.70</bcpg-jdk15on.version>
         <acme4j-client.version>2.16</acme4j-client.version>
